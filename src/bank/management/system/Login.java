@@ -75,7 +75,10 @@ cardTextField.setText("");
 PINTextField.setText("");
 }
     else if (ac.getSource()==login){}
-    else if (ac.getSource()==sn) {}
+    else if (ac.getSource()==sn) {
+        setVisible(false);
+        new SignUp_frame1().setVisible(true);
+}
 
     }
 
